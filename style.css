@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+  color: #EDC4B3;
+}
+a:hover {
+  color: #F27A48;
+}
+a:active {
+  color: #E3561A;
+}
+body {
+  background-color: #EDC4B3;
+}
+h1 {
+  color: #fff;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #774936;
+  margin: 0px;
+}
+p {
+  color: #774936;
+  font-size: 20px;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: #774936;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuTextContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.menuText {
+  padding: 20px;
+}
+.mainContent {
+  padding: 10px 50px 10px 50px;
+}
+.contentRow {
+  display: flex;
+  justify-content: space-between;
+}
+.contentTextIndex {
+  width: 48%;
+  height: 450px;
+}
+.contentTextRecyclingTop {
+  width: 48%;
+  height: 350px;
+  margin-top: 30px;
+}
+.contentTextRecyclingBottom {
+  width: 48%;
+  height: 275px;
+  margin-top: 20px;
+}
+.howToItem {
+  display: flex;
+  margin: 30px 0px 40px 0px;
+}
+.howToPic {
+  width: 250px;
+  height: 150px;
+}
+.howToRight {
+  width: 70%;
+  display: flex;
+}
+.howToText {
+  margin-top: 0px;
+  margin-left: 30px;
+}
+#heroSectionWaste {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#heroSectionRecycling {
+  background-image: url('herorecycling.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#heroSectionHowTo {
+  background-image: url('herohowto.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#picLeft {
+  width: 48%;
+  height: 400px;
+  background-image: url('landfill1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+#picRight {
+  width: 48%;
+  height: 400px;
+  background-image: url('landfill2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+#issueStatement {
+  margin: 30px;
+}
